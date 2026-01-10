@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.parent {
+  display: flex;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.cards {
+  width: 300px;
+  height: 370px;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+
+.middel img {
+  margin: 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.top {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top tag {
+  background-color: #50c45f;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 25px;
+}
+
+.top p {
+  font-weight: bold;
+  opacity: 75%;
+  margin: 5px;
+
+}
+
+.middel {
+  margin: 10px;
+}
+
+.middel h2 {
+  font-weight: normal;
+  opacity: 85%;
+  margin: 5px;
+}
+
+.middel h5 {
+  font-weight: normal;
+  opacity: 40%;
+  margin: 5px;
+}
+
+.middel tag {
+  font-weight: normal;
+  color: rgb(66, 150, 228);
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  margin: 5px;
+}
+
+.skills tag {
+  margin: 5px;
+  border-radius: 25px;
+  padding: 5px 10px;
+  background-color: #e9ebe9;
+  color: #000;
+  font-weight: normal;
+  border: solid black 0.5px;
+}
+
+.skills #t4 {
+  background-color: #579bdb;
+  color: #fff;
+}
+
+.middel p {
+  font-weight: normal;
+  font-size: 12px;
+  opacity: 40%;
+  margin: 5px;
+}
+
+.bottom button {
+  -ms-flex-item-align: end;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 5px 10px;
+  border-radius: 25px;
+  margin: 20px;
+  border: solid black 0.5px;
+}

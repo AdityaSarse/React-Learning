@@ -102,7 +102,6 @@ body {
 }
 
 .bottom button {
-  -ms-flex-item-align: end;
   background-color: #ffffff;
   color: #000000;
   padding: 5px 10px;

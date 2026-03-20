@@ -63,7 +63,7 @@ const App = () => {
           {Task.map((item, index) => {
             return (
               <div key={index} className="relative h-60 w-full bg-cover bg-center sm:w-38 lg:w-48 bg-[url('https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=400&q=80')] rounded-2xl text-black shadow-lg p-4">
-                <button 
+                <button
                   onClick={() => deleteNote(index)}
                   className='absolute top-3 right-3 p-1 bg-white/50 hover:bg-white rounded-full transition-colors backdrop-blur-sm'
                   aria-label="Delete Note"
